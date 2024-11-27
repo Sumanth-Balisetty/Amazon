@@ -13,7 +13,20 @@ const Home = () => {
             <a href='/'>contact</a>
             
         </nav>
+        
       </div>
+      <div className='home'>
+          <div className='login'>
+            <div className=''>
+               <label>email</label>
+               <input type='email' placeholder='email'/>
+            </div>
+            <div className=''>
+               <label>password</label>
+               <input type='password' placeholder='password'/>
+            </div>
+          </div>
+        </div>
     </div>
   );
 }
